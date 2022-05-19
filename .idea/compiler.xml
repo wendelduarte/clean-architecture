@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cleanarchitecture-api" />
+        <module name="db-postgres-repository" />
+        <module name="use-case" />
+        <module name="use-case-ports" />
+        <module name="youtube-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="use-case-proj" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cleanarchitecture-api" options="-parameters" />
+      <module name="db-postgres-repository" options="-parameters" />
+      <module name="external-services" options="-parameters" />
+      <module name="use-case" options="-parameters" />
+      <module name="use-case-ports" options="-parameters" />
+      <module name="use-case-proj" options="-parameters" />
+      <module name="use-case-projects" options="-parameters" />
+      <module name="youtube-client" options="-parameters" />
+    </option>
+  </component>
+</project>
